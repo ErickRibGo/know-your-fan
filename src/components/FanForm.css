@@ -1,0 +1,100 @@
+.fan-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+    background-color: #1e1e2f;
+    border-radius: 10px;
+    color: white;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .fan-form input,
+  .fan-form button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  .fan-form button {
+    background-color: #5c0aff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .fan-form button:hover {
+    background-color: #4a00e0;
+  }
+  
+  .error-message {
+    color: #ff5555;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  
+  input.valid {
+    border: 2px solid #00c853;
+  }
+  
+  input.invalid {
+    border: 2px solid #ff5252;
+  }
+  
+  .success-message {
+    color: #00e676;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .error-message {
+    color: #ff5252;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 15px;
+  font-size: 14px;
+  background-color: #2e2e40;
+  color: white;
+}
+
+select:invalid {
+  color: #aaa;
+}
+
+.invalid {
+  border: 2px solid #ff4d4d;
+}
+
+.file-upload {
+  margin: 1rem 0;
+}
+
+.file-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.file-upload input[type="file"] {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 4px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.file-hint {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.25rem;
+}
